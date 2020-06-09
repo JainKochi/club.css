@@ -2418,7 +2418,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 @media only screen and (max-width: 600px) {
-  #teams .owl-wrap {
+  #team .owl-wrap {
     width: 90%;
   }
   #team-slider p {
@@ -2427,7 +2427,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 @media only screen and (max-width: 400px) {
-  #teams .owl-wrap {
+  #team .owl-wrap {
     width: 100%;
   }
   #team-slider p {

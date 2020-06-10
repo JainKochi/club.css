@@ -2439,33 +2439,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   transform: translateX(-50%);
 }
 
-#work .team-container {
-  text-align: center;
-  margin: auto;
-  max-width: 920px;
-}
-
-#work .team-section-header {
-  padding-bottom: 90px;
-}
-
-#work .team-member {
-  text-align: center;
-  padding-bottom: 60px;
-}
-
-#work .team-member-position {
-  color: #747474;
-}
-
-#work .team-member-text {
-  padding-top: 25px;
-}
-
-#work .team-social-icon {
-  padding: 7px;
-
-
 /* ------------------------------------------------------------------- 
  * responsive:
  * work

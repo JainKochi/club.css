@@ -59,7 +59,7 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: #39b54a;
+  color: #259ece;
 }
 
 
@@ -251,7 +251,7 @@ dfn[title] {
 
 mark {
   background: #FFF49B;
-  color: #000;
+  color: #141515;
 }
 
 hr {
@@ -308,7 +308,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #39b54a;
+  background: #259ece;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -317,7 +317,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #39b54a;
+  color: #259ece;
 }
 
 dd {
@@ -421,7 +421,7 @@ td {
 }
 
 th {
-  color: #151515;
+  color: #141515;
   font-family: "montserrat-bold", sans-serif;
 }
 
@@ -488,7 +488,7 @@ td:last-child {
   right: 100%;
   height: 100%;
   width: 100%;
-  background: #39b54a;
+  background: #259ece;
 }
 
 .pace.pace-inactive {
@@ -511,7 +511,7 @@ td:last-child {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000000;
+  background: #141515;
   z-index: 800;
   height: 100%;
   width: 100%;
@@ -621,7 +621,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  color: #000000;
+  color: #141515;
 }
 
 label,
@@ -693,7 +693,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   border: none;
-  -webkit-text-fill-color: #57ca67;
+  -webkit-text-fill-color: #259ece;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -740,7 +740,7 @@ input[type="reset"]:focus,
 input[type="button"]:focus {
   background-color: #b8b8b8;
   border-color: #b8b8b8;
-  color: #000000;
+  color: #141515;
   outline: 0;
 }
 
@@ -749,8 +749,8 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  background-color: #39b54a;
-  border-color: #39b54a;
+  background-color: #259ece;
+  border-color: #259ece;
   color: #FFFFFF;
 }
 
@@ -794,8 +794,8 @@ button.stroke,
 
 button.stroke:hover,
 .button.stroke:hover {
-  border: 0.3rem solid #39b54a;
-  color: #39b54a;
+  border: 0.3rem solid #259ece;
+  color: #259ece;
 }
 
 button.pill,
@@ -811,8 +811,9 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-
-
+.center {
+  text-align: center;
+}
 /* ===================================================================
  *  07. other components - (_others.scss)
  *
@@ -1021,7 +1022,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #39b54a;
+  color: #259ece;
 }
 
 .stats-tabs li a em {
@@ -1053,7 +1054,7 @@ h1.intro-header::before {
   content: "";
   height: 2px;
   width: 70px;
-  background-color: #39b54a;
+  background-color: #259ece;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1095,13 +1096,12 @@ h1.intro-header::before {
 #header {
   width: 100%;
   height: 72px;
-  background-color: #111111;
   position: fixed;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  z-index: 501;
+  z-index: 500;
 }
 
 
@@ -1110,15 +1110,12 @@ h1.intro-header::before {
  * ------------------------------------------------------------------- */
 
 .header-logo {
-  position: absolute;
-  left: 40px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  position: fixed;
+  left: -370;
+  top: 0%;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-  z-index: 501;
+  z-index: 1;
 }
 
 .header-logo a {
@@ -1127,10 +1124,10 @@ h1.intro-header::before {
   padding: 0;
   outline: 0;
   border: none;
-  width: 97px;
-  height: 22px;
-  background: url("../images/logo.png") no-repeat center;
-  background-size: 97px 22px;
+  width: 280px;
+  height: 157px;
+  background: url("../images/logo-hc.png") no-repeat center;
+  background-size: 280px 157px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1162,7 +1159,7 @@ h1.intro-header::before {
 
 .header-menu-toggle:hover,
 .header-menu-toggle:focus {
-  color: rgb(0, 0, 0);
+  color: #141515;
 }
 
 .header-menu-toggle span {
@@ -1236,13 +1233,12 @@ h1.intro-header::before {
 #header-nav-wrap {
   font-family: "montserrat-medium", sans-serif;
   font-size: 14px;
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: 40px;
+  right: 250px;
 }
 
 #header-nav-wrap .header-main-nav {
-  display: inline-block;
   list-style: none;
   height: 72px;
   margin: 0 1rem 0 0;
@@ -1266,11 +1262,11 @@ h1.intro-header::before {
 
 #header-nav-wrap .header-main-nav li a:hover,
 #header-nav-wrap .header-main-nav li a:focus {
-  color: #000000;
+  color: #141515;
 }
 
 #header-nav-wrap .header-main-nav li.current a {
-  color: #44c455;
+  color: #259ece
 }
 
 #header-nav-wrap .cta {
@@ -1306,10 +1302,7 @@ h1.intro-header::before {
     display: none;
     height: auto;
     width: 100%;
-    right: auto;
-    left: 0;
-    background-color: #000000;
-    padding: 120px 40px 54px;
+    background-color: #141515;
   }
   #header-nav-wrap .header-main-nav {
     display: block;
@@ -1386,7 +1379,7 @@ h1.intro-header::before {
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141515', endColorstr='#14151500', GradientType=1);
   /* IE6-9 */
 }
 
@@ -1397,11 +1390,11 @@ h1.intro-header::before {
   width: 100%;
   height: 100%;
   opacity: .2;
-  background-color: #000000;
+  background-color: #141515;
 }
 
 .no-js #home {
-  background: #000000;
+  background: #141515;
 }
 
 .home-content {
@@ -1456,7 +1449,7 @@ h1.intro-header::before {
 .home-content-left .button.stroke:hover,
 .home-content-left .button.stroke:focus {
   background-color: white !important;
-  color: #000000 !important;
+  color: #141515 !important;
 }
 
 .home-image-right {
@@ -1501,7 +1494,7 @@ h1.intro-header::before {
   content: "";
   width: 2px;
   height: 42px;
-  background-color: rgba(0, 0, 0);
+  background-color: #141515;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 12px;
@@ -1519,7 +1512,7 @@ h1.intro-header::before {
 .home-social-list li a:hover,
 .home-social-list li a:focus,
 .home-social-list li a:active {
-  color: #44c455;
+  color: #259ece;
 }
 
 
@@ -1544,7 +1537,7 @@ h1.intro-header::before {
 
 .home-scrolldown a:hover,
 .home-scrolldown a:focus {
-  color: #44c455 !important;
+  color: #259ece !important;
 }
 
 html[data-useragent*='MSIE 10.0'] .home-scrolldown,
@@ -1799,7 +1792,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #about {
   min-height: 786px;
-  background: #000000;
+  background: #141515;
   padding-top: 18rem;
   overflow: hidden;
 }
@@ -1823,7 +1816,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-features .feature .icon i {
-  color: #44c455;
+  color: #259ece;
   font-size: 4.8rem;
 }
 
@@ -1867,7 +1860,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   display: block;
   width: 1px;
   height: 100%;
-  background-color: rgba(0, 0, 0);
+  background-color: #141515;
   position: absolute;
   top: 0;
 }
@@ -1905,8 +1898,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   line-height: 54px;
   text-align: center;
   border-radius: 50%;
-  background-color: #44c455;
-  box-shadow: 0 0 0 15px #000000;
+  background-color: #259ece;
+  box-shadow: 0 0 0 15px #141515;
   z-index: 500;
   position: absolute;
   top: -12px;
@@ -2042,7 +2035,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #join {
-  background: #000000;
+  background: #141515;
   padding-top: 15rem;
   padding-bottom: 12rem;
 }
@@ -2060,7 +2053,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .join-table .plan-block {
-  background: #000000;
+  background: #141515;
   border-radius: 5px;
   padding: 4.8rem 4rem 5.4rem;
   margin-bottom: 4.8rem;
@@ -2114,18 +2107,18 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .join-table .plan-block .plan-block-features li span {
-  color: #39b54a;
+  color: #259ece;
   font-family: "muli-bold", sans-serif;
 }
 
 .join-table .plan-block.primary {
-  background: #39b54a;
+  background: #259ece;
   color: rgba(255, 255, 255);
 }
 
 .join-table .plan-block.primary .plan-block-title,
 .join-table .plan-block.primary .plan-block-price {
-  color: #000000;
+  color: #141515;
 }
 
 .join-table .plan-block.primary .plan-block-features {
@@ -2137,18 +2130,18 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .join-table .plan-block.primary .plan-block-features li span {
-  color: #000000;
+  color: #141515;
 }
 
 .join-table .plan-block.primary .button.button-primary {
-  background: #000000;
+  background: #141515;
   color: #ffffff;
-  border-color: #000000;
+  border-color: #141515;
 }
 
 .join-table .plan-block.primary .button.button-primary:hover,
 .join-table .plan-block.primary .button.button-primary:focus {
-  color: #39b54a;
+  color: #259ece;
 }
 
 .join-table .plan-bottom-part {
@@ -2230,7 +2223,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  *
  * ------------------------------------------------------------------- */
  #team {
-  background: rgb(0, 0, 0);
+  background: #141515;
   padding: 15rem 0 9rem;
   text-align: center;
   min-height: 600px;
@@ -2321,7 +2314,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #support {
-  background: #000000;
+  background: #141515;
   color: #ffffff;
   padding-top: 12rem;
   padding-bottom: 12rem;
@@ -2333,7 +2326,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #support h1::before {
-  background-color: #000000;
+  background-color: #141515;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -2370,43 +2363,23 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   color: transparent;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 230px 230px;
 }
 
 #support .support-badges li a.badge-logo1 {
-  background-image: url("../images/moz___a-magenta.png");
+  background-image: url("../images/icon-progress-square.png");
 }
 
 #support .support-badges li a.badge-logo2 {
-  background-image: url("../images/moz___a-yellow.png");  
+  background-image: url("../images/stickermule.png");  
 }
 #support .support-badges li a.badge-logo3 {
-  background-image: url("../images/moz___a-turquoise.png");  
+  background-image: url("../images/cssclub.png");  
 }
 
 #support .support-badges li a.badge-logo4 {
-  background-image: url("../images/moz___a-orange.png");  
-}
-
-#support .support-badges li a.badge-logo5 {
   background-image: url("../images/moz___a-white.png");  
 }
 
-#support .support-badges li a.badge-logo6 {
-  background-image: url("../images/moz___a-lightblue.png");  
-}
-
-#support .support-badges li a.badge-logo7 {
-  background-image: url("../images/moz___a-violet.png");  
-}
-
-#support .support-badges li a.badge-logo8 {
-  background-image: url("../images/moz___a-purple.png");  
-}
-
-#support .support-badges li a.badge-logo9 {
-  background-image: url("../images/moz___a-pink.png");  
-}
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -2426,7 +2399,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
  #work {
-  background: rgb(0, 0, 0);
+  background: #141515;
   padding: 15rem 0 9rem;
   text-align: center;
   min-height: 600px;
@@ -2501,7 +2474,7 @@ footer {
 
 footer a,
 footer a:visited {
-  color: #39b54a;
+  color: #259ece;
 }
 
 footer a:hover,
@@ -2607,8 +2580,8 @@ footer ul a:visited {
   top: 0;
   right: 0;
   color: #ffffff;
-  background: #39b54a;
-  border-color: #39b54a;
+  background: #259ece;
+  border-color: #259ece;
   border-radius: 0 .5rem .5rem 0;
   padding: 0 15px;
 }
@@ -2688,7 +2661,7 @@ footer ul a:visited {
   width: 60px;
   line-height: 60px;
   text-align: center;
-  background: black;
+  background: #141515;
   color: rgba(255, 255, 255);
   text-align: center;
   text-transform: uppercase;

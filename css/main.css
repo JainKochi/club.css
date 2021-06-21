@@ -2369,10 +2369,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-image: url("../images/icon-progress-square.png");
 }
 
-#support .support-badges li a.badge-logo2 {
+#support .support-badges li a.badge-logo3 {
   background-image: url("../images/stickermule.png");  
 }
-#support .support-badges li a.badge-logo3 {
+#support .support-badges li a.badge-logo2 {
   background-image: url("../images/cssclub.png");  
 }
 

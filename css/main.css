@@ -2356,8 +2356,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #support .support-badges li a {
   display: block;
-  width: 230px;
-  height: 230px;
+  width: 115px;
+  height: 115px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;

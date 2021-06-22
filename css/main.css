@@ -2094,7 +2094,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .join-table .plan-block .plan-block-features {
-  list-style: none;
+  list-style: none;footer
   margin: 0 2rem 4.2rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 1.6rem;
@@ -2661,7 +2661,7 @@ footer ul a:visited {
   width: 60px;
   line-height: 60px;
   text-align: center;
-  background: #141515;
+  background: #858585;
   color: rgba(255, 255, 255);
   text-align: center;
   text-transform: uppercase;

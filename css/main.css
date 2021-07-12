@@ -1111,7 +1111,7 @@ h1.intro-header::before {
 
 .header-logo {
   position: fixed;
-  left: -370;
+  left: -200;
   top: 0%;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
